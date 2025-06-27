@@ -12,17 +12,7 @@ Example: `https://your-ngrok-or-streamlit-link`
 ## 📂 Project Structure
 
 📦 Automated-Essay-Scoring
-├── data/
-│ └── automated_essay_score.csv
-├── models/
-│ ├── gru_essay_model.h5
-│ └── tokenizer.pkl
-├── streamlit_app.py
-├── model_training.ipynb
-└── README.md
-
-markdown
-Copy code
+data----> automated_essay_score.csv---> models ---> gru_essay_model.h5 ---> tokenizer.pkl ---> streamlit_app.py ---> model_training.ipynb ---> README.md
 
 ---
 
@@ -84,6 +74,7 @@ If you're using Google Colab, use pyngrok to expose the app.
 The output by using the streamlit is attached below.
 ![Streamlit page](https://github.com/user-attachments/assets/8b610a9b-dbf7-4c25-bb6c-d0319384657c)
 
+------
 
 💾 Model Files
 gru_essay_model.h5: Pre-trained GRU model
@@ -92,12 +83,16 @@ tokenizer.pkl: Fitted tokenizer used for text to sequence transformation
 
 Make sure these files are in the same folder as streamlit_app.py for smooth loading.
 
+----
+
 📈 Results
 Trained on cleaned essay data
 
 Achieved low Mean Absolute Error (MAE) and consistent validation performance
 
 Includes visualization of training loss curves
+
+------
 
 📌 Future Improvements
 Add feedback explanation alongside score
@@ -106,10 +101,11 @@ Support for multiple languages
 
 Deploy on Streamlit Cloud or HuggingFace Spaces
 
+-------
 🧑‍💻 Author
 Reshma
 Aspiring Data Scientist | Passionate about NLP and Deep Learning
-LinkedIn Profile (Update this link)
+LinkedIn Profile (www.linkedin.com/in/reshma-0508ep)
 
 
 
